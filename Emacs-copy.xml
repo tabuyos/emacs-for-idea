@@ -36,7 +36,7 @@
     <keyboard-shortcut first-keystroke="ctrl w" />
   </action>
   <action id="EditorDeleteLine">
-    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl y" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="k" />
   </action>
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
