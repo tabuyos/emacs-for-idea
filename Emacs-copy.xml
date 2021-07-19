@@ -66,6 +66,9 @@
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl g" />
   </action>
+  <action id="FileChooser.LightEditGotoOpenedFile">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
+  </action>
   <action id="FileStructurePopup">
     <keyboard-shortcut first-keystroke="ctrl f12" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl s" />
@@ -85,6 +88,9 @@
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt insert" />
     <keyboard-shortcut first-keystroke="alt i" />
+  </action>
+  <action id="GitToolBox.ShowInlineBlame">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl l" />
   </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="alt x" />
@@ -141,6 +147,9 @@
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="ctrl alt 0" />
+  </action>
+  <action id="SelectInProjectView">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
   </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl h" />
