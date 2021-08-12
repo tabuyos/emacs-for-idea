@@ -54,10 +54,15 @@
   <action id="EditorPreviousWord">
     <keyboard-shortcut first-keystroke="alt b" />
   </action>
+  <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
     <keyboard-shortcut first-keystroke="shift enter" />
     <keyboard-shortcut first-keystroke="ctrl enter" />
     <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
+  <action id="EditorStartNewLineBefore">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+    <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="EditorTextStart">
     <keyboard-shortcut first-keystroke="shift alt comma" />
@@ -150,6 +155,10 @@
   <action id="RunClass">
     <keyboard-shortcut first-keystroke="shift ctrl f10" />
     <keyboard-shortcut first-keystroke="ctrl alt 0" />
+  </action>
+  <action id="Scala.ShowImplicits">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt add" />
   </action>
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
