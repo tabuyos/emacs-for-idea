@@ -138,7 +138,9 @@
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="p" />
   </action>
-  <action id="QuickChangeScheme" />
+  <action id="QuickChangeScheme">
+    <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
+  </action>
   <action id="RecentFiles">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl e" />
   </action>
