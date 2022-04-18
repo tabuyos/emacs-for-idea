@@ -154,6 +154,9 @@
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl r" />
   </action>
+  <action id="RevealIn">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl o" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="shift f10" />
     <keyboard-shortcut first-keystroke="shift alt 0" />
