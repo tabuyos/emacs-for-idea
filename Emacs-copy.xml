@@ -306,12 +306,13 @@
   <action id="GotoClass" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="alt period" />
-    <mouse-shortcut keystroke="control button1" />
     <mouse-shortcut keystroke="meta button1" />
+    <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoImplementation">
     <keyboard-shortcut first-keystroke="ctrl alt b" />
     <mouse-shortcut keystroke="control alt button1" />
+    <mouse-shortcut keystroke="meta alt button1" />
   </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="#10000b7" />
