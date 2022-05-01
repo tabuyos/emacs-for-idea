@@ -9,7 +9,7 @@
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl o" />
   </action>
   <action id="$Redo">
-    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl z" />
   </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl slash" />
@@ -170,7 +170,6 @@
   <action id="EditorFocusGutter" />
   <action id="EditorForwardParagraph" />
   <action id="EditorForwardParagraphWithSelection" />
-  <action id="EditorJoinLines" />
   <action id="EditorLeftWithSelection" />
   <action id="EditorLineEndWithSelection" />
   <action id="EditorLineStart">
@@ -546,6 +545,8 @@
   <action id="XPathView.Actions.Evaluate" />
   <action id="XPathView.Actions.FindByExpression" />
   <action id="XPathView.Actions.ShowPath" />
+  <action id="ZeppelinSelectCellAboveAction" />
+  <action id="ZeppelinSelectCellBelowAction" />
   <action id="android.deploy.CodeSwap" />
   <action id="com.sburlyaev.cmd.plugin.actions.OpenInTerminal">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl t" />
