@@ -383,6 +383,9 @@
   <action id="PrevParameter" />
   <action id="PreviousEditorTab" />
   <action id="PreviousOccurence" />
+  <action id="PreviousProjectWindow">
+    <keyboard-shortcut first-keystroke="meta back_quote" />
+  </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="alt left" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="p" />
