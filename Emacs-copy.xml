@@ -140,8 +140,9 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
   </action>
-  <action id="EditorAddOrRemoveCaret" />
-  <action id="EditorAddRectangularSelectionOnMouseDrag" />
+  <action id="EditorAddRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="shift meta alt button1" />
+  </action>
   <action id="EditorBackwardParagraph" />
   <action id="EditorBackwardParagraphWithSelection" />
   <action id="EditorChooseLookupItemDot" />
@@ -151,7 +152,9 @@
   <action id="EditorCodeBlockStart" />
   <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorCreateRectangularSelection" />
-  <action id="EditorCreateRectangularSelectionOnMouseDrag" />
+  <action id="EditorCreateRectangularSelectionOnMouseDrag">
+    <mouse-shortcut keystroke="alt button1" />
+  </action>
   <action id="EditorCutLineBackward" />
   <action id="EditorDeleteLine">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl k" />
@@ -159,7 +162,9 @@
   <action id="EditorDeleteToWordStart">
     <keyboard-shortcut first-keystroke="ctrl back_space" />
   </action>
-  <action id="EditorDownWithSelection" />
+  <action id="EditorDownWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl n" />
+  </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl d" />
   </action>
@@ -219,11 +224,16 @@
     <keyboard-shortcut first-keystroke="shift alt comma" />
   </action>
   <action id="EditorTextStartWithSelection" />
+  <action id="EditorToggleColumnMode">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl m" />
+  </action>
   <action id="EditorToggleStickySelection">
     <keyboard-shortcut first-keystroke="ctrl space" />
   </action>
   <action id="EditorUnSelectWord" />
-  <action id="EditorUpWithSelection" />
+  <action id="EditorUpWithSelection">
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
   <action id="EmmetNextEditPoint" />
   <action id="EmmetPreviousEditPoint" />
   <action id="EscUnfollowUserAction" />
@@ -485,7 +495,6 @@
     <keyboard-shortcut first-keystroke="ctrl y" />
   </action>
   <action id="Terminal.SmartCommandExecution.Debug" />
-  <action id="Terminal.SmartCommandExecution.Run" />
   <action id="Terminal.SwitchFocusToEditor">
     <keyboard-shortcut first-keystroke="escape" />
     <keyboard-shortcut first-keystroke="ctrl g" />
