@@ -20,6 +20,15 @@
   <action id=":cursive.actions.paredit/forward">
     <keyboard-shortcut first-keystroke="alt f" />
   </action>
+  <action id=":cursive.repl.actions/load-file" />
+  <action id=":cursive.repl.actions/next-history-item">
+    <keyboard-shortcut first-keystroke="ctrl down" />
+    <keyboard-shortcut first-keystroke="alt n" />
+  </action>
+  <action id=":cursive.repl.actions/prev-history-item">
+    <keyboard-shortcut first-keystroke="ctrl up" />
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="AddToFavoritesPopup" />
   <action id="Adtui.ZoomInAction" />
   <action id="Adtui.ZoomOutAction" />
@@ -375,6 +384,9 @@
   </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl p" />
+  </action>
+  <action id="NewElementInMenuGroup">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl period" />
   </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl f" />
