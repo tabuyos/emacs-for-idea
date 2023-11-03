@@ -280,6 +280,7 @@
   <action id="ExtractFunctionToScope" />
   <action id="FileChooser.LightEditGotoOpenedFile">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="page_down" />
   </action>
   <action id="FileChooser.NewFolder" />
   <action id="FileChooser.TogglePathShowing" />
