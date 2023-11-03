@@ -11,6 +11,10 @@
   <action id="$Redo">
     <keyboard-shortcut first-keystroke="shift ctrl z" />
   </action>
+  <action id="$SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="h" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="back_space" />
+  </action>
   <action id="$Undo">
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
@@ -51,6 +55,7 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="up" />
   </action>
   <action id="CWMHostShowPopupAction" />
   <action id="CallHierarchy" />
@@ -149,8 +154,11 @@
   <action id="Editor Redo">
     <keyboard-shortcut first-keystroke="shift ctrl slash" />
   </action>
+  <action id="Editor SelectAll">
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="back_space" />
+  </action>
   <action id="EditorAddRectangularSelectionOnMouseDrag">
-    <mouse-shortcut keystroke="shift meta alt button1" />
+    <mouse-shortcut keystroke="alt button1" />
   </action>
   <action id="EditorBackwardParagraph" />
   <action id="EditorBackwardParagraphWithSelection" />
@@ -176,6 +184,7 @@
   </action>
   <action id="EditorDuplicate">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl d" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="delete" />
   </action>
   <action id="EditorEscape">
     <keyboard-shortcut first-keystroke="escape" />
@@ -225,6 +234,9 @@
     <keyboard-shortcut first-keystroke="ctrl o" />
   </action>
   <action id="EditorSwapSelectionBoundaries" />
+  <action id="EditorTab">
+    <keyboard-shortcut first-keystroke="alt tab" />
+  </action>
   <action id="EditorTextEnd">
     <keyboard-shortcut first-keystroke="shift alt period" />
   </action>
@@ -296,6 +308,7 @@
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
     <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl x" second-keystroke="down" />
   </action>
   <action id="FullyExpandTreeNode" />
   <action id="Generate">
@@ -384,12 +397,17 @@
   </action>
   <action id="NewDir">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl p" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="up" />
   </action>
   <action id="NewElementInMenuGroup">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl period" />
   </action>
+  <action id="NewElementMenu">
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl period" />
+  </action>
   <action id="NewFile">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl f" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="right" />
   </action>
   <action id="NextEditorTab" />
   <action id="NextOccurence" />
@@ -472,6 +490,7 @@
   <action id="SelectIn" />
   <action id="SelectInProjectView">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl v" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="page_down" />
   </action>
   <action id="SelectNextOccurrence" />
   <action id="SelectVirtualTemplateElement" />
@@ -483,6 +502,7 @@
   </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl h" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="back_space" />
   </action>
   <action id="ShowSearchHistory" />
   <action id="ShowSettingsAndFindUsages" />
@@ -524,6 +544,7 @@
   <action id="ToggleBookmarkWithMnemonic" />
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl b" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="left" />
   </action>
   <action id="ToggleRenderedDocPresentationForAll">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
@@ -561,6 +582,7 @@
   <action id="ViewBreakpoints" />
   <action id="ViewNavigationBar">
     <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="ctrl n" />
+    <keyboard-shortcut first-keystroke="ctrl c" second-keystroke="down" />
   </action>
   <action id="WD.UploadCurrentRemoteFileAction" />
   <action id="WebOpenInAction" />
